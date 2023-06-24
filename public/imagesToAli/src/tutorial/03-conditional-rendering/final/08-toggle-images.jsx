@@ -15,7 +15,7 @@ const ToggleChallenge = () => {
   return (
     <div>
       <button className='btn' onClick={() => setShowAlert(!showAlert)}>
-        Ali’s Images <span>🖼️ 👇</span> 
+        Ali’s Images
       </button>
       {showAlert && <Alert />}
     </div>
@@ -25,7 +25,6 @@ const ToggleChallenge = () => {
 
 const Alert = () => {
   return <div className='users'>
-   
     <img className=''
 
     src={ali7} alt="ali7" />
@@ -42,8 +41,7 @@ const Alert = () => {
     <img className=''
     src={ali5} alt="ali5" />
     <img className=''
-      src={ali6} alt="ali6" />
-    
+    src={ali6} alt="ali6" />
   </div>;
 };
 export default ToggleChallenge;
