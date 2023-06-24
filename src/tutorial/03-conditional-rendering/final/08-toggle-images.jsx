@@ -15,44 +15,32 @@ const ToggleChallenge = () => {
   return (
     <div>
       <button className='btn' onClick={() => setShowAlert(!showAlert)}>
-        toggle alert
+        Ali’s Images
       </button>
       {showAlert && <Alert />}
     </div>
   );
 };
 
-// const Alert = () => {
-//   return <div className='alert alert-danger'>hello world</div>;
-// };
+
 const Alert = () => {
   return <div className='users'>
-    {/* <img className=''
-  style={{ width: '500px', height:'500px',borderRadius: '2px' }}
-    src={Avator} alt="Avator" /> */}
     <img className=''
-  style={{ width: '350px', height:'350px',borderRadius: '100px' }}
+
     src={ali7} alt="ali7" />
     <img className=''
-  style={{ width: '350px', height:'350px',borderRadius: '100px' }}
     src={ali} alt="ali" />
     <img className=''
-  style={{ width: '350px', height:'350px',borderRadius: '100px' }}
     src={ali1} alt="ali1" />
     <img className=''
-  style={{ width: '350px', height:'350px',borderRadius: '100px' }}
     src={ali2} alt="ali2" />
     <img className=''
-  style={{ width: '350px', height:'350px',borderRadius: '100px' }}
     src={ali3} alt="ali3" />
     <img className=''
-  style={{ width: '350px', height:'350px',borderRadius: '100px' }}
     src={ali4} alt="ali4" />
     <img className=''
-  style={{ width: '350px', height:'350px',borderRadius: '100px' }}
     src={ali5} alt="ali5" />
     <img className=''
-  style={{ width: '350px', height:'350px',borderRadius: '100px' }}
     src={ali6} alt="ali6" />
   </div>;
 };
